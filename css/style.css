@@ -1,0 +1,52 @@
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td { margin: 0; padding: 0 }
+body, button, input, select, textarea { font: 12px/1.5 tahoma, arial, 'Hiragino Sans GB', 'Microsoft Yahei', \5b8b\4f53, sans-serif }
+h1, h2, h3, h4, h5, h6 { font-size: 100% }
+address, cite, dfn, em, var { font-style: normal }
+code, kbd, pre, samp { font-family: courier new, courier, monospace }
+small { font-size: 12px }
+ul, ol { list-style: none }
+a { text-decoration: none }
+a:hover { text-decoration: underline; color:#f60; }
+sup { vertical-align: text-top }
+sub { vertical-align: text-bottom }
+legend { color: #000 }
+fieldset, img { border: 0 }
+button, input, select, textarea { font-size: 100% }
+table { border-collapse: collapse; border-spacing: 0 }
+#header, #content, #footer { width: 1016px; margin-left: auto; margin-right: auto }
+.col-main { float: left; width: 100%; min-height: 1px }
+.col-sub, .col-extra { float: left }
+.layout:after, .main-wrap:after, .col-sub:after, .col-extra:after { content: '\20'; display: block; height: 0; clear: both }
+.layout, .main-wrap, .col-sub, .col-extra { *zoom:1
+}
+.clear { clear: both; height: 0; line-height: 0; font: 0; }
+.clearfix:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+.clearfix { display: inline-block }
+* html .clearfix { height: 1% }
+.clearfix { display: block }
+body { background: #fff url(../images/body-bg.png) repeat-x 0 118px; color:#828186; }
+#header { height: 118px; overflow: hidden; position: relative }
+#logo { padding: 33px 0 0 8px; }
+.nav { position: absolute; right: 8px; top: 60px; font-size:14px; color:#e7e5e4; }
+.nav a { color:#333; }
+.nav a.red { color:#c51e1e; }
+.nav a:hover { color:#f60; }
+#content { min-height:800px; }
+.Contactus, .aboutus { margin-top:50px; position:relative }
+.Contactus h2, .aboutus h2 { line-height:2.2; font-size:20px; color:#c51e1e; }
+.Contactus-text, .aboutus-text { line-height:2.2; font-size:14px; }
+.Contactus-text img { margin-top:20px; }
+.aboutus img { position:absolute; top:30px; right:48px; }
+.job-head { height:430px; position:relative; }
+.job-pic1 { height:178px; background:url(../images/pic-01.png) no-repeat center center; }
+.job-pic2 { height:42px; background:url(../images/pic-02.png) no-repeat center center; }
+.aboutus-text { margin-right:350px; }
+.job-nav img { margin-right:20px; }
+.job-box h2 { line-height:2.2; font-size:20px; }
+.job-text { line-height:2.2; font-size:14px; }
+.line { margin:35px 0 30px; border-top:1px solid #dad7d8 }
+#footer { border-top: 1px solid #d6d6d6; text-align: center; line-height:2; padding: 25px 0; margin-top:50px; }
+#footer a { color:#828186; }
+#footer a:hover { color:#f60; }
+.red { color:#c51e1e; }
+.backToTop { display: none; width: 60px; background:url(../images/pic-03.png) no-repeat center top; padding-top:35px; color: #828186; font-size: 14px; text-align: center; position: fixed; _position: absolute; right: 30px; bottom: 100px; _bottom: "auto"; cursor: pointer;}
